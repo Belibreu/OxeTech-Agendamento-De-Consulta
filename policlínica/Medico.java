@@ -13,4 +13,12 @@ public class Medico extends Pessoa{
 
     }
     
+    @Override
+    public String getNome() {
+        return super.getNome();
+    }
+
+    public String getEspecialidade() {
+        return this.especialidade;
+    }
 }
