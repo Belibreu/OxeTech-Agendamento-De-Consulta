@@ -9,4 +9,7 @@ public class Paciente extends Pessoa{
         this.cartaoSUS = cartaoSUS;
         this.especialidade = especialidade;
     }
+    public String getEspecialidade(){
+        return this.especialidade;
+   }
 }
