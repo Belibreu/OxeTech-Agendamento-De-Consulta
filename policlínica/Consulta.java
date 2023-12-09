@@ -4,10 +4,17 @@ public class Consulta{
     Paciente paciente;
     Medico medico;
 
-    Consulta(Paciente paciente, Medico medico){
-        super(paciente.getNome(), paciente.getCpf());
+    public Consulta(Paciente paciente, Medico medico) {
         this.paciente = paciente;
         this.medico = medico;
+    }
+
+    public Paciente getPaciente() {
+        return paciente;
+    }
+
+    public Medico getMedico() {
+        return medico;
     }
     
 }
